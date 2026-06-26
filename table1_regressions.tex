@@ -1,0 +1,31 @@
+
+\begin{table}[htbp]
+\centering
+\caption{\textbf{Predictive Regressions of Memory Resonance Index (MRI)}}
+\label{tab:mri_regression}
+\begin{tabular}{lcc}
+\hline\hline
+Variable & Model (1): Future Return $R_{t+1}$ & Model (2): Future Volatility $\sigma_{t+1}$ \\
+\hline
+Constant & 0.0579$^{***}$ & 0.8445$^{***}$ \\
+         & (0.69) & (6.02) \\
+[0.8ex]
+$\text{MRI}_t$ (Memory Resonance) & -0.0643$^{***}$ & -0.9368$^{***}$ \\
+         & (-0.68) & (-5.91) \\
+[0.8ex]
+$R_t$ (Lagged Return) & -0.0304 & -0.5063 \\
+         & (-0.58) & (-5.76) \\
+[0.8ex]
+$\sigma_t$ (Lagged Volatility) & 0.0389 & 1.1905$^{***}$ \\
+         & (0.75) & (13.44) \\
+\hline
+Adjusted $R^2$ & -0.01\% & 44.27\% \\
+Observations & 14336 & 14336 \\
+\hline\hline
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Note:} This table reports the Newey-West $t$-statistics in parentheses adjusted with 2 lags. 
+$^{***}$ denotes significance at the 1\% level.
+\end{tablenotes}
+\end{table}
